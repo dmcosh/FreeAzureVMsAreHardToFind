@@ -15,9 +15,8 @@ SAMPLE OUTPUT:
 ![Example of Output](sample_output.png)
 
 
-## NOTE: 
-This script will display locations that don't appear in Azure's portal dropdown.  They are legit but you will have to create the VM using Azure CLI.  I tested this and included with this project is a screenshot of the command and the successful creation of a VM in a region that did not even show up in the portal (at that time anyway). This seems to happen when some 'zones' in that region have availability but one or more do not.  You will have to specify a zone with availability when you run the CLI command in those cases.
+**NOTE:** This script will display locations that don't appear in Azure's portal dropdown.  They are legit but you will have to create the VM using Azure CLI.  I tested this and included with this project is a screenshot of the command and the successful creation of a VM in a region that did not even show up in the portal (at that time anyway). This seems to happen when some 'zones' in that region have availability but one or more do not.  You will have to specify a zone with availability when you run the CLI command in those cases.
 
 ![Screenshot of creating VM with Azure CLI](CLI_created_VM.png)
 
-Anyway, happy VM hunting!!!
+Happy VM hunting!
