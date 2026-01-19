@@ -1,4 +1,4 @@
-# Free-Azure-VMs-Are-Hard-To-Find
+# Free Azure VMs Are Hard To Find!!!
 
 PURPOSE:
 Lists availability of 'free services eligible' Azure VMs.  This was really just the start of a project porfolio but it does work and is helpful if you have a 12 month intro Azure account and want to setup VMs that don't cost you anything.  Microsoft touts this perk but seems to have trouble keeping up with demand.  Poking around in the portal's 'Region' dropdown trying to hit on a location where the free VMs are available was maddening so I wrote this little Python script to help me find locations that have availability.
